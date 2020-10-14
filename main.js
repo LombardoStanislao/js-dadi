@@ -5,22 +5,30 @@
 
 // var numeriDado ['1', '2' , '3', '4', '5', '6'];
 
-var giocatoreUno = Math.floor(Math.random() * 6 + 1) ;
+var giocatoreUno = Math.floor(Math.random() * 6) + 1 ;
 
-var giocatoreDue = Math.floor(Math.random() * 6 + 1) ;
+var giocatoreDue = Math.floor(Math.random() * 6) + 1 ;
 
 console.log(giocatoreUno);
 console.log(giocatoreDue);
 
 if (giocatoreUno > giocatoreDue) {
 
-  console.log('Vincotore - 1');
+  console.log('Vincotore: Giocatore 1');
 
 } else if (giocatoreDue > giocatoreUno ) {
 
-  console.log('Vincotore - 2');
+  console.log('Vincotore: Giocatore 2');
 
 } else if (giocatoreUno == giocatoreDue) {
 
   console.log('Parità');
 }
+
+// var array = [];
+//
+// for (var i = 0; i < 2; i++) {
+//   array.push(giocatoreUno);
+//
+//   console.log(array);
+// }
